@@ -3,7 +3,7 @@ import './App.css';
 import MainContent from './Components/MainContent/MainContent';
 import NavBar from './Components/NavBar/NavBar';
 import RowImages from './Components/RowImages/RowImages';
-import {action,orginals} from './Urls'
+import {action,orginals,comedy} from './Urls'
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
     <MainContent />
     <RowImages url={orginals} title='Netflix Orginals' bigPoster/>
     <RowImages url={action} title='Action' />
+    <RowImages url={comedy} title='Comedy' />
     </div>
   );
 }
