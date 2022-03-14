@@ -1,5 +1,6 @@
 
 import './App.css';
+import LandingMainContent from './Components/LandingPage/LandingMainContent/LandingMainContent';
 import LandingNavBar from './Components/LandingPage/LandingNavBar/LandingNavBar';
 import MainContent from './Components/MainContent/MainContent';
 
@@ -11,10 +12,11 @@ function App() {
   return (
     <div>
       <LandingNavBar />
+      <LandingMainContent />
 
 
 
-
+    {/*Home Page Archive*/}
     {/* <NavBar />
     <MainContent />
     <RowImages url={orginals} title='Netflix Orginals' bigPoster/>
