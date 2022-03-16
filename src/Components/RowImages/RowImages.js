@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "../../Axios";
 import "./RowImages.css";
-import { api_key, baseUrl, img_url } from "../Constants/Constants";
+import { img_url } from "../Constants/Constants";
 
 function RowImages({url,title,bigPoster}) {
     const [movies, setMovies] = useState([]);
