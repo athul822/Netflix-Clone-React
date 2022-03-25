@@ -1,0 +1,22 @@
+.fom-container-gs{
+    margin: 1.5rem 0;
+    
+}
+.form-input{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#email-gs{
+    width: 35vw;
+    padding: 1rem;
+    font-size: 1em;
+}
+#submit-btn-gs{
+    width: 13vw;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    font-size: 1.3em;
+}

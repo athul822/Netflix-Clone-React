@@ -1,4 +1,5 @@
 import React from "react";
+import GetStarted from "../GetStartedForm/GetStarted";
 import "./LandingMainContent.css";
 function LandingMainContent() {
   return (
@@ -11,13 +12,8 @@ function LandingMainContent() {
           {" "}
           Watch anywhere. Cancel anytime.
         </h2>
-        <form action="" method="get">
-          <h3>
-            Ready to watch? Enter your email to create or restart your
-            membership.
-          </h3>
-          
-        </form>
+        <GetStarted />
+      
       </div>
     </div>
   );

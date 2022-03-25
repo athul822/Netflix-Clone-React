@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .our-story-card-text{
     color: #fff;
     max-width: 50vw;
@@ -15,9 +16,11 @@
     align-items: center;
 }
 .our-story-card-title{
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
+    max-width: 47vw;
 }
 .our-story-card-subtitle{
     font-size: 1.65rem;
+    margin-top: 1rem;
 }
