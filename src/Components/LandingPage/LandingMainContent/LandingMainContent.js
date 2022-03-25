@@ -13,7 +13,6 @@ function LandingMainContent() {
           Watch anywhere. Cancel anytime.
         </h2>
         <GetStarted />
-      
       </div>
     </div>
   );

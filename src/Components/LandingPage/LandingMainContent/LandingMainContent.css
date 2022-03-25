@@ -1,11 +1,12 @@
 #landing-pg-mc {
   width: 100%;
-  height: 100vh;
+  height: 105vh;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0)), url("https://assets.nflxext.com/ffe/siteui/vlv3/87a1d9d8-a21d-4109-ba3a-c10d9055f5cf/2341e349-a6fc-4b04-a0ad-9b21defa1f88/IN-en-20220307-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 12px solid #333;
 }
 
 .our-story-card-text{
@@ -22,5 +23,5 @@
 }
 .our-story-card-subtitle{
     font-size: 1.65rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
