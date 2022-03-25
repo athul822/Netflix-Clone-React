@@ -1,31 +1,34 @@
 import React from 'react'
 import './DisplayFeatures.css'
-const DisplayFeatText = () => {
+const DisplayFeatText = (props) => {
+
     return (
 
         <div className='feat-card-text-container'>
-            <h1 className='feat-card-title'>Enjoy on your TV.</h1>
-            <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+            <h1 className='feat-card-title'>{props.title}</h1>
+            <h2>{props.sub_title}</h2>
 
         </div>
     )
 }
-const DisplayFeatImg = () => {
+const DisplayFeatImg = (props) => {
     return (
         <div className='feat-card-img-container'>
-            <img className='feat-card-img' src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" />
+            <img className='feat-card-img' src={props.img} alt="" />
         </div>
     )
 
 }
 
-const DisplayFeatures = () => {
+const DisplayFeatures = (props) => {
+    
+console.log()
     return (
-        <div className='feat-card-section'>
+        <div className="feat-card-section">
 
-            <div className='feat-card-container'>
-                <DisplayFeatText />
-                <DisplayFeatImg />
+            <div className={props.rev ?`feat-card-container flex-reverse`:`feat-card-container`}>
+                <DisplayFeatText title={props.title} sub_title={props.subtitle} />
+                <DisplayFeatImg img={props.img} />
             </div>
 
         </div>

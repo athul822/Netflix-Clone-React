@@ -14,7 +14,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    border-bottom: 1rem solid #222;
+    border-bottom: 12px solid #222;
 }
 .feat-card-img-container{
     display: flex;
@@ -31,6 +31,6 @@
     font-size: 3rem;
     margin: 1rem 0;
 }
-.feat-card-container-flex-reverse{
+.flex-reverse{
     flex-direction: row-reverse;
 }
