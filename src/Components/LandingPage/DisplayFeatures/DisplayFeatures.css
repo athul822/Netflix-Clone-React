@@ -7,7 +7,7 @@
 .feat-card-text-container{
     display: flex;
     flex-direction: column;
-    width: 52%;
+   
     justify-content: center;
 }
 .feat-card-section{
@@ -18,17 +18,17 @@
 }
 .feat-card-img-container{
     display: flex;
-    width: 48%;
+   
     margin: 3rem 0;
-    justify-content: end;
+
     
 }
 .feat-card-img{
     width: fit-content;
-    width: 90%;
+    width: 100%;
 }
 .feat-card-title{
-    font-size: 3rem;
+    
     margin: 1rem 0;
 }
 .flex-reverse{

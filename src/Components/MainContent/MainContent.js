@@ -27,17 +27,17 @@ function MainContent() {
     }, []);
 
     return (
-        <div className="container" style={{ backgroundImage: `url('${img_url+bg}')` }}>
+        <div className="container-content" style={{ backgroundImage: `url('${img_url+bg}')` }}>
             <div className="main-content">
                 <h1 className="main-title">{title}</h1>
                 <div className="buttons">
-                    <button className="btn-play btn">
+                    <button className="btn-play btns">
                         <span className="fa-icons">
                             <FontAwesomeIcon icon="fa-solid fa-play" className="play-icon" />
                         </span>
                         Play
                     </button>
-                    <button className="btn-info btn">
+                    <button className="btn-info btns">
                         <span className="fa-icons">
                             <FontAwesomeIcon icon="fa-solid fa-circle-info" />
                         </span>{" "}

@@ -11,17 +11,18 @@
 
 .our-story-card-text{
     color: #fff;
-    max-width: 50vw;
+    /* max-height: 50vh; */
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .our-story-card-title{
-    font-size: 3rem;
+    /* font-size: 3rem; */
     text-align: center;
-    max-width: 47vw;
+    /* max-width: 47vw; */
 }
 .our-story-card-subtitle{
-    font-size: 1.65rem;
+    /* font-size: 1.65rem; */
     margin-top: 1.5rem;
 }

@@ -3,18 +3,18 @@ import GetStarted from "../GetStartedForm/GetStarted";
 import "./LandingMainContent.css";
 function LandingMainContent() {
   return (
-    <div id="landing-pg-mc">
-      <div className="our-story-card-text">
-        <h1 className="our-story-card-title">
+   <div id="landing-pg-mc">
+      <div className="our-story-card-text container">
+        <h1 className="our-story-card-title col-10 col-md-6">
           Unlimited movies, TV shows and more.
         </h1>
-        <h2 className="our-story-card-subtitle">
+        <h3 className="our-story-card-subtitle col-12 col-md-6 text-center ">
           {" "}
           Watch anywhere. Cancel anytime.
-        </h2>
+        </h3>
         <GetStarted />
       </div>
-    </div>
+      </div>
   );
 }
 
