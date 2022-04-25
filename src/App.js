@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import { ReactDOM } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import LandingPage from "./Pages/LandingPage";
